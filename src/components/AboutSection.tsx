@@ -3,9 +3,9 @@ import { Pen, BookOpen } from "lucide-react";
 
 const AboutSection = () => {
   return (
-    <section id="about" className="py-20 px-4 bg-muted/30">
-      <div className="container mx-auto max-w-4xl">
-        <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 text-foreground animate-fade-in">About Me</h2>
+    <section id="about" className="py-12 md:py-20 px-4 bg-muted/30">
+      <div className="container mx-auto max-w-6xl">
+        <h2 className="text-4xl md:text-5xl font-bold text-center mb-8 md:mb-12 text-foreground animate-fade-in">About Me</h2>
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div className="space-y-4 animate-fade-in-up" style={{ animationDelay: "0.2s" }}>
             <p className="text-lg text-muted-foreground leading-relaxed">
@@ -18,7 +18,7 @@ const AboutSection = () => {
               through compelling narratives and authentic voice.
             </p>
           </div>
-          <Card className="p-8 space-y-4 animate-scale-in hover-scale" style={{ animationDelay: "0.4s" }}>
+          <Card className="p-4 md:p-8 space-y-4 animate-scale-in hover-scale" style={{ animationDelay: "0.4s" }}>
             <div className="flex items-start gap-4">
               <BookOpen className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
               <div>

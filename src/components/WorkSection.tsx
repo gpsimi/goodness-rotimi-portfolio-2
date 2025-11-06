@@ -12,14 +12,14 @@ const WorkSection = ({ works }: WorkSectionProps) => {
 
   return (
     <>
-      <section id="work" className="py-20 px-4">
+      <section id="work" className="py-12 md:py-20 px-4">
         <div className="container mx-auto max-w-6xl">
-          <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 text-foreground animate-fade-in">Featured Work</h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <h2 className="text-4xl md:text-5xl font-bold text-center mb-8 md:mb-12 text-foreground animate-fade-in">Featured Work</h2>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
             {works.map((work, index) => (
               <Card 
                 key={index} 
-                className="p-6 hover:shadow-lg transition-all cursor-pointer group hover-scale animate-scale-in"
+                className="p-4 md:p-6 hover:shadow-lg transition-all cursor-pointer group hover-scale animate-scale-in"
                 onClick={() => setSelectedWork(work)}
                 style={{ animationDelay: `${index * 100}ms` }}
               >
