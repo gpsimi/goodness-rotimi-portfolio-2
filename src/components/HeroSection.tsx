@@ -5,11 +5,14 @@ const HeroSection = () => {
   return (
     <section className="pt-32 pb-20 px-4">
       <div className="container mx-auto max-w-6xl">
-        <div className="grid md:grid-cols-2 gap-12 items-center">
+        <div className="grid md:grid-cols-2 gap-12 items-center py-16">
           <div className="order-2 md:order-1 animate-fade-in">
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-foreground mb-6 animate-fade-in-up" style={{ animationDelay: "0.2s" }}>
-              Crafting Stories<br />That Matter
+            <h1 className="text-5xl md:text-4xl lg:text-5xl font-bold text-foreground mb-3 animate-fade-in-up" style={{ animationDelay: "0.2s" }}>
+              Hello, I'm <br />Goodness Rotimi
             </h1>
+            <p className="text-xl font-semibold md:text-2xl text-muted-foreground mb-4 animate-fade-in-up" style={{ animationDelay: "0.4s" }}>
+              Content Strategist & Writer
+            </p>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 animate-fade-in-up" style={{ animationDelay: "0.4s" }}>
               Creative writer specializing in compelling narratives, thought-provoking essays, and captivating fiction.
             </p>

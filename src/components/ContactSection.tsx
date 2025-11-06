@@ -23,14 +23,14 @@ const ContactSection = () => {
              className="text-muted-foreground hover:text-primary transition-colors hover:scale-110 duration-200">
             <Twitter className="w-6 h-6" />
           </a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"
+          <a href="https://www.linkedin.com/in/goodness-rotimi-5070962b8" target="_blank" rel="noopener noreferrer"
              className="text-muted-foreground hover:text-primary transition-colors hover:scale-110 duration-200">
             <Linkedin className="w-6 h-6" />
           </a>
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer"
+          {/* <a href="https://github.com" target="_blank" rel="noopener noreferrer"
              className="text-muted-foreground hover:text-primary transition-colors hover:scale-110 duration-200">
             <Github className="w-6 h-6" />
-          </a>
+          </a> */}
         </div>
       </div>
     </section>
