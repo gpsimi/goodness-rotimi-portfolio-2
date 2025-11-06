@@ -5,9 +5,9 @@ const AboutSection = () => {
   return (
     <section id="about" className="py-20 px-4 bg-muted/30">
       <div className="container mx-auto max-w-4xl">
-        <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 text-foreground">About Me</h2>
+        <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 text-foreground animate-fade-in">About Me</h2>
         <div className="grid md:grid-cols-2 gap-8 items-center">
-          <div className="space-y-4">
+          <div className="space-y-4 animate-fade-in-up" style={{ animationDelay: "0.2s" }}>
             <p className="text-lg text-muted-foreground leading-relaxed">
               I'm a creative writer with a passion for storytelling that resonates with readers on a deep, emotional level. 
               With over 10 years of experience, I've worked across multiple genres including fiction, creative non-fiction, 
@@ -18,7 +18,7 @@ const AboutSection = () => {
               through compelling narratives and authentic voice.
             </p>
           </div>
-          <Card className="p-8 space-y-4">
+          <Card className="p-8 space-y-4 animate-scale-in hover-scale" style={{ animationDelay: "0.4s" }}>
             <div className="flex items-start gap-4">
               <BookOpen className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
               <div>

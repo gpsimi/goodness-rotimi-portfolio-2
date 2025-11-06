@@ -19,15 +19,15 @@ const WorkSection = ({ works }: WorkSectionProps) => {
             {works.map((work, index) => (
               <Card 
                 key={index} 
-                className="p-6 hover:shadow-lg transition-all cursor-pointer group hover-scale animate-fade-in"
+                className="p-6 hover:shadow-lg transition-all cursor-pointer group hover-scale animate-scale-in"
                 onClick={() => setSelectedWork(work)}
                 style={{ animationDelay: `${index * 100}ms` }}
               >
                 <div className="space-y-3">
-                  <span className="inline-block px-3 py-1 text-sm font-medium bg-accent/10 text-accent rounded-full">
+                  <span className="inline-block px-3 py-1 text-sm font-medium bg-accent/10 text-accent rounded-full transition-transform duration-200 group-hover:scale-105">
                     {work.category}
                   </span>
-                  <h3 className="text-xl font-bold text-foreground group-hover:text-primary transition-colors">
+                  <h3 className="text-xl font-bold text-foreground group-hover:text-primary transition-colors duration-200">
                     {work.title}
                   </h3>
                   <p className="text-muted-foreground">{work.description}</p>
