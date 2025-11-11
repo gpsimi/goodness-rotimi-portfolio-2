@@ -3,5 +3,6 @@ export interface WorkItem {
   category: string;
   description: string;
   fullContent: string;
+  mediumUrl: string;
 }
 
