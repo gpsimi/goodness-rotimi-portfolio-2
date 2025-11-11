@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-writer.jpg";
+import heroImages from "@/assets/hero-image.jpg";
 
 const HeroSection = () => {
   return (
@@ -28,7 +29,7 @@ const HeroSection = () => {
           <div className="order-1 md:order-2 animate-fade-in" style={{ animationDelay: "0.3s" }}>
             <div className="relative rounded-2xl overflow-hidden shadow-2xl hover-scale">
               <img 
-                src={heroImage} 
+                src={heroImages} 
                 alt="Creative writer workspace with typewriter and notebooks" 
                 className="w-full h-auto object-cover"
               />
