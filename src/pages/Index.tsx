@@ -1,7 +1,7 @@
 import Navigation from "@/components/Navigation";
 import HeroSection from "@/components/HeroSection";
 import AboutSection from "@/components/AboutSection";
-import WorkSection from "@/components/WorkSection";
+import WorkSection from "@/components/Portfolio";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import { works } from "@/constants";

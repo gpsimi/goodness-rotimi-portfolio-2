@@ -2,10 +2,10 @@ import { WorkItem } from "@/types/work";
 
 export const works: WorkItem[] = [
     {
-      title: "The Midnight Garden",
+      title: "My Experience with Terrible Fried Snacks",
       category: "Fiction",
-      description: "A haunting tale of loss, memory, and the spaces between dreams and reality.",
-      fullContent: "A haunting tale of loss, memory, and the spaces between dreams and reality. This novel follows Emma as she discovers a mysterious garden that only appears at midnight, where the boundaries between past and present blur. Through lyrical prose and vivid imagery, the story explores themes of grief, healing, and the power of memory to shape our present."
+      description: "There are times you're not really hungry for food, you just want a little something.",
+      fullContent: "There are times you're not really hungry for food, you just want a little something. Maybe it’s egg roll and a chilled Coke (yes please!), or a sausage roll with cold water. For me, sometimes it’s Rite sausage roll—yes, that popular Gala. Other times, soft bread will do. Either way, you’re not craving rice or beans but you just want that outside snack vibe. You get it, right?"
     },
     {
       title: "Echoes of Tomorrow",

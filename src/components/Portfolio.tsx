@@ -7,18 +7,18 @@ interface WorkSectionProps {
   works: WorkItem[];
 }
 
-const WorkSection = ({ works }: WorkSectionProps) => {
+const Portfolio = ({ works }: WorkSectionProps) => {
   const [selectedWork, setSelectedWork] = useState<WorkItem | null>(null);
 
   return (
     <>
       <section id="work" className="py-12 md:py-20 px-4">
         <div className="container mx-auto max-w-6xl">
-          <h2 className="text-4xl md:text-5xl font-bold text-center mb-8 md:mb-12 text-foreground animate-fade-in">Portfolio</h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-center mb-8 md:mb-12 text-foreground animate-fade-in">My Portfolio</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
             {works.map((work, index) => (
-              <Card 
-                key={index} 
+              <Card
+                key={index}
                 className="p-4 md:p-6 hover:shadow-lg transition-all cursor-pointer group hover-scale animate-scale-in"
                 onClick={() => setSelectedWork(work)}
                 style={{ animationDelay: `${index * 100}ms` }}
@@ -57,5 +57,5 @@ const WorkSection = ({ works }: WorkSectionProps) => {
   );
 };
 
-export default WorkSection;
+export default Portfolio;
 
