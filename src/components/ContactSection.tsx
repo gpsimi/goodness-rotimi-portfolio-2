@@ -3,7 +3,7 @@ import { Mail,  Linkedin, Instagram } from "lucide-react";
 
 const ContactSection = () => {
   return (
-    <section id="contact" className="py-12 md:py-20 px-4 bg-muted/30">
+    <section id="contact" className="py-12 md:py-20 bg-muted/30">
       <div className="container mx-auto max-w-6xl text-center">
         <h2 className="text-4xl md:text-5xl font-bold mb-4 md:mb-6 text-foreground animate-fade-in">Let's Connect</h2>
         <p className="text-xl text-muted-foreground mb-6 md:mb-8 max-w-2xl mx-auto animate-fade-in-up" style={{ animationDelay: "0.2s" }}>

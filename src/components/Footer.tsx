@@ -2,7 +2,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="py-6 md:py-8 px-4 border-t border-border animate-fade-in">
+    <footer className="py-6 md:py-8 border-t border-border animate-fade-in">
       <div className="container mx-auto max-w-6xl text-center text-muted-foreground">
         <p>© {currentYear} Goodness Rotimi. All rights reserved.</p>
       </div>

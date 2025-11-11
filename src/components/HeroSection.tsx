@@ -4,7 +4,7 @@ import heroImages from "@/assets/hero-image.jpg";
 
 const HeroSection = () => {
   return (
-    <section className="pt-24 pb-12 md:pt-32 md:pb-20 px-4">
+    <section className="pt-24 pb-12 md:pt-32 md:pb-20">
       <div className="container mx-auto max-w-6xl">
         <div className="grid md:grid-cols-2 gap-6 md:gap-12 items-center py-8 md:py-16">
           <div className="order-2 md:order-1 animate-fade-in">

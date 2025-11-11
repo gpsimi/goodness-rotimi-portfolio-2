@@ -3,7 +3,7 @@ import { Pen, BookOpen } from "lucide-react";
 
 const AboutSection = () => {
   return (
-    <section id="about" className="py-12 md:py-20 px-4 bg-muted/30">
+    <section id="about" className="py-12 md:py-20 bg-muted/30">
       <div className="container mx-auto max-w-6xl">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-8 md:mb-12 text-foreground animate-fade-in">About Me</h2>
         <div className="grid md:grid-cols-2 gap-8 items-center">
