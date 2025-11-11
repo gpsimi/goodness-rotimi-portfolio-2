@@ -2,7 +2,7 @@ import { ExperienceSection } from "@/components/ExperienceSection";
 
 const Experience = () => {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background border-y-2">
         <ExperienceSection />
     </div>
   );

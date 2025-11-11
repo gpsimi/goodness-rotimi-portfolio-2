@@ -3,7 +3,7 @@ import { experiences } from "@/constants/experiences";
 
 export const ExperienceSection = () => {
     return (
-        <section id="experience" className="py-12 md:py-20">
+        <section id="experience" className="py-12 md:py-20 border-y-2">
             <div className="container mx-auto max-w-6xl px-4">
                 <h2 className="text-4xl md:text-5xl font-bold text-center mb-8 md:mb-12 text-foreground animate-fade-in">
                     My Experiences
