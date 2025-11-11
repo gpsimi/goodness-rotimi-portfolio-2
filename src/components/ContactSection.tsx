@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Mail, Github, Linkedin, Twitter } from "lucide-react";
+import { Mail,  Linkedin, Instagram } from "lucide-react";
 
 const ContactSection = () => {
   return (
@@ -19,18 +19,14 @@ const ContactSection = () => {
           </Button>
         </div>
         <div className="flex justify-center gap-6 animate-fade-in-up" style={{ animationDelay: "0.6s" }}>
-          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" 
+          <a href="https://www.instagram.com/goodness_rotimi?igsh=M256MXZoZzA1cDZv" target="_blank" rel="noopener noreferrer" 
              className="text-muted-foreground hover:text-primary transition-colors hover:scale-110 duration-200">
-            <Twitter className="w-6 h-6" />
+            <Instagram className="w-6 h-6" />
           </a>
           <a href="https://www.linkedin.com/in/goodness-rotimi-5070962b8" target="_blank" rel="noopener noreferrer"
              className="text-muted-foreground hover:text-primary transition-colors hover:scale-110 duration-200">
             <Linkedin className="w-6 h-6" />
           </a>
-          {/* <a href="https://github.com" target="_blank" rel="noopener noreferrer"
-             className="text-muted-foreground hover:text-primary transition-colors hover:scale-110 duration-200">
-            <Github className="w-6 h-6" />
-          </a> */}
         </div>
       </div>
     </section>
