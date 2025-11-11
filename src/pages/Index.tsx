@@ -5,6 +5,7 @@ import WorkSection from "@/components/WorkSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import { works } from "@/constants";
+import { ExperienceSection } from "@/components/ExperienceSection";
 
 
 const Index = () => {
@@ -14,6 +15,7 @@ const Index = () => {
       <HeroSection />
       <AboutSection />
       <WorkSection works={works} />
+      <ExperienceSection />
       <ContactSection />
       <Footer />
     </div>
