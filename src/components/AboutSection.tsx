@@ -9,12 +9,12 @@ const AboutSection = () => {
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div className="space-y-4 animate-fade-in-up" style={{ animationDelay: "0.2s" }}>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              I'm a creative writer with a passion for storytelling that resonates with readers on a deep, emotional level. 
-              With over 10 years of experience, I've worked across multiple genres including fiction, creative non-fiction, 
+              I'm a creative writer with a passion for storytelling that resonates with readers on a deep, emotional level.
+              With a few years of experience, I've worked across multiple genres including fiction, creative non-fiction,
               and digital content.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              My work has been featured in numerous publications, and I've helped countless clients bring their stories to life 
+              My work has been featured in numerous publications, and I've helped countless clients bring their stories to life
               through compelling narratives and authentic voice.
             </p>
           </div>
@@ -23,7 +23,18 @@ const AboutSection = () => {
               <BookOpen className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
               <div>
                 <h3 className="font-semibold text-lg mb-2">Published Works</h3>
-                <p className="text-muted-foreground">50+ articles and 3 novels</p>
+                <p className="text-muted-foreground">
+                  on
+                  <span className="font-bold">
+                    <a href="https://medium.com/@goodrotimi0">
+                    Medium
+                  </a>
+                  </span>
+                  and
+                  <span className="font-bold">
+                    <a href="">OHR Publishing</a>
+                  </span>
+                </p>
               </div>
             </div>
             <div className="flex items-start gap-4">
