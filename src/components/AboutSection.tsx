@@ -24,15 +24,15 @@ const AboutSection = () => {
               <div>
                 <h3 className="font-semibold text-lg mb-2">Published Works</h3>
                 <p className="text-muted-foreground">
-                  on
+                  on {" "}
                   <span className="font-bold">
-                    <a href="https://medium.com/@goodrotimi0">
-                    Medium
+                    <a href="https://medium.com/@goodrotimi0" target="_blank">
+                    Medium  {" "}
                   </a>
                   </span>
-                  and
+                  and  {" "}
                   <span className="font-bold">
-                    <a href="">OHR Publishing</a>
+                    <a href="https://ohrpub.com/author/goodness/" target="_blank">OHR Publishing</a>
                   </span>
                 </p>
               </div>
